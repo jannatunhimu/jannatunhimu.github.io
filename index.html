@@ -417,7 +417,92 @@
   .contact-form {
     margin-top: 25px;
   }
-} </style>
+}  
+  
+/* About Me Section */
+.about-content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 40px 25px;
+  background: #ffffff;
+  border-radius: 18px;
+  line-height: 1.8;
+  color: #334155;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.about-content h2 {
+  text-align: center;
+  color: #172554;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.about-content h3 {
+  color: #1d4ed8;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  font-size: 21px;
+}
+
+.about-content p {
+  margin-bottom: 16px;
+}
+
+.about-intro {
+  font-size: 17px;
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.about-skills span {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.about-skills span:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+@media (max-width: 650px) {
+  .about-content {
+    padding: 25px 18px;
+  }
+
+  .about-content h2 {
+    font-size: 26px;
+  }
+
+  .about-content h3 {
+    font-size: 19px;
+  }
+
+  .about-intro {
+    font-size: 16px;
+  }
+
+  .about-skills {
+    gap: 8px;
+  }
+
+  .about-skills span {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+}
+  </style>
 </head> 
 
 <body>
