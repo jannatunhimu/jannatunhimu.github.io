@@ -23,8 +23,172 @@ h2{text-align:center;font-size:32px;margin-bottom:30px}
 footer{text-align:center;padding:25px;background:#172554;color:white}
 .small{color:#64748b;font-size:14px;margin-top:10px}
 </style>
-</head>
-<body>
+</head> 
+<!-- My Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+
+  <div class="portfolio-heading">
+    <p class="portfolio-label">MY WORK</p>
+    <h2>My Portfolio</h2>
+    <p>Explore my creative designs and data entry practice projects.</p>
+  </div>
+
+  <div class="portfolio-grid">
+
+    <!-- Project 1 -->
+    <article class="portfolio-card">
+      <img
+        src="01-business-card-design.png"
+        alt="Business card design sample by Jannatun Himu"
+        loading="lazy"
+      >
+      <div class="portfolio-content">
+        <span class="portfolio-category">Graphic Design</span>
+        <h3>Business Card Design</h3>
+        <p>A modern business card concept with a clean and elegant style.</p>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="portfolio-card">
+      <img
+        src="02-social-media-post.png"
+        alt="Healthy food social media post design sample"
+        loading="lazy"
+      >
+      <div class="portfolio-content">
+        <span class="portfolio-category">Canva Design</span>
+        <h3>Social Media Post</h3>
+        <p>A promotional social media design concept for a healthy food brand.</p>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="portfolio-card">
+      <img
+        src="03-data-entry-sample.png"
+        alt="Microsoft Excel data entry practice sample"
+        loading="lazy"
+      >
+      <div class="portfolio-content">
+        <span class="portfolio-category">Microsoft Excel</span>
+        <h3>Data Entry Sample</h3>
+        <p>An organized spreadsheet example for practicing data entry.</p>
+      </div>
+    </article>
+
+    <!-- Project 4 -->
+    <article class="portfolio-card">
+      <img
+        src="04-flyer-design.png"
+        alt="Women empowerment workshop flyer design sample"
+        loading="lazy"
+      >
+      <div class="portfolio-content">
+        <span class="portfolio-category">Canva Design</span>
+        <h3>Flyer Design</h3>
+        <p>A modern promotional flyer concept for a workshop event.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<style>
+  .portfolio-section {
+    padding: 60px 20px;
+    background: #f8fafc;
+    color: #172554;
+    font-family: Arial, sans-serif;
+  }
+
+  .portfolio-heading {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 35px;
+  }
+
+  .portfolio-label {
+    color: #047857;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .portfolio-heading h2 {
+    font-size: 34px;
+    margin: 10px 0;
+  }
+
+  .portfolio-heading > p:last-child {
+    color: #64748b;
+    line-height: 1.7;
+  }
+
+  .portfolio-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+  }
+
+  .portfolio-card {
+    background: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.06);
+    transition: transform 0.2s ease;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .portfolio-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio-content {
+    padding: 22px;
+  }
+
+  .portfolio-category {
+    display: inline-block;
+    color: #047857;
+    background: #d1fae5;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .portfolio-content h3 {
+    margin: 14px 0 8px;
+    font-size: 21px;
+  }
+
+  .portfolio-content p {
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 650px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .portfolio-heading h2 {
+      font-size: 28px;
+    }
+  }
+</style>
+</body>
+</html>
 <div style="text-align:center; padding:30px;">
   <img
     src="./jannatun-himu.jpg"
