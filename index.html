@@ -637,8 +637,91 @@
 
   .services-section .service-card {
     padding: 22px;
-  }
+  
 }
+/* Community Impact Gallery */
+.community-section {
+  padding: 65px 20px;
+  background: #f1f5f9;
+}
+
+.community-heading {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 35px;
+}
+
+.community-heading h2 {
+  color: #172554;
+  margin: 12px 0;
+}
+
+.community-heading p {
+  color: #64748b;
+  line-height: 1.8;
+}
+
+.community-role {
+  max-width: 1050px;
+  margin: 0 auto 30px;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,.06);
+}
+
+.community-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.community-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,.07);
+  transition: transform .25s;
+}
+
+.community-card:hover {
+  transform: translateY(-5px);
+}
+
+.community-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.community-content {
+  padding: 22px;
+}
+
+.community-content h3 {
+  color: #1d4ed8;
+  margin: 10px 0;
+}
+
+.community-content p {
+  color: #64748b;
+  line-height: 1.8;
+}
+
+.community-tag {
+  color: #047857;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media(max-width:650px) {
+  .community-grid {
+    grid-template-columns: 1fr;
+  }
 
   </style>
 </head> 
